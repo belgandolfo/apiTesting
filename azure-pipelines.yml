@@ -9,5 +9,5 @@ pool:
 steps:
 - task: k6-load-test@0
   inputs: 
-    filename: 'noTechMetadataTest.js'
+    filename: 'tests/noTechMetadataTest.js'
 
