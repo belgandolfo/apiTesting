@@ -1,0 +1,16 @@
+{
+    "settings": {
+        "baseUrl": "https://gl-qa-auto.signiant.com/reachengine/api"
+    },
+    "test_filters": {
+        "enabled": false,
+        "startsWith": null,
+        "endsWith": null,
+        "contains": null,
+        "regex": null
+    },
+    "environment": {
+        "execution": "local",
+        "optionsSet": "load"
+    }
+}

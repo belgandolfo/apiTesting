@@ -1,0 +1,16 @@
+{
+    "settings": {
+        "baseUrl": "https://re-angular15-qa.gl-qa-man.signiant.com/reachengine/api"
+    },
+    "test_filters": {
+        "enabled": false,
+        "startsWith": null,
+        "endsWith": null,
+        "contains": null,
+        "regex": null
+    },
+    "environment": {
+        "execution": "local",
+        "optionsSet": "load"
+    }
+}
