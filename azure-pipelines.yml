@@ -10,5 +10,5 @@ steps:
 - task: k6-load-test@0
   inputs: 
     args: -e ENVIRONMENT=$(Environment)
-    filename: 'tests/noTechMetadataTest.js'
+    filename: 'tests/noTechMetadataTest.js & tests/techMetadataTest.js' 
 
