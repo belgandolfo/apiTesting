@@ -6,9 +6,12 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+variables:
+- group: APITesting
+
 steps:
 - task: k6-load-test@0
   inputs: 
-    args: -e ENVIRONMENT=$(Environment)
-    filename: 'tests/noTechMetadataTest.js' 
+    args: -e ENVIRONMENT=$(Environment) -e ADMIN_USERNAME=$(ADMIN_USER_NAME) -e ADMIN_PASSWORD=$(ADMIN_USER_PASSWORD)
+    filename: 'tests/no-tech-metadata-test.js'
 
